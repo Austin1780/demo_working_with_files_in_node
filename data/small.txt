@@ -1,0 +1,2 @@
+Just a small text file
+Should have no problem reading the entire thing into memory.
