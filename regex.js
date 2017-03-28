@@ -26,3 +26,8 @@ var newstr = str.replace(re, 'oranges');
 console.log(newstr);  // oranges are round, and oranges are juicy.
 
 
+var re = /(\w+)\s(\w+)/;
+var str = 'Chuck Norris';
+var newstr = str.replace(re, '$2, $1');
+console.log(newstr);  // Smith, John
+
