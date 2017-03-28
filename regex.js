@@ -14,8 +14,8 @@ var regex = /(.oo)/g
 var matches = [];
 var match = regex.exec(str);
 while (match) {
-    matches.push(match);
-    match = regex.exec(str);
+  matches.push(match);
+  match = regex.exec(str);
 }
 console.log(matches);
 
